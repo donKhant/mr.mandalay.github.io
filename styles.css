@@ -284,8 +284,8 @@ footer .contact-info .work_hours {
 }
 
 .test_card img {
-    width: 330px;
-    height: 400px;
+    width: 310px;
+    height: 390px;
 }
 
 .test_card {
@@ -300,6 +300,7 @@ footer .contact-info .work_hours {
     border: 1.5px solid rgb(126, 126, 126);
     height: 350px;
 }
+
 
 .test_card a {
     text-decoration: none;
