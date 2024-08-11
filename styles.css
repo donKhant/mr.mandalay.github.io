@@ -3,6 +3,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 #main_body {
@@ -80,14 +81,13 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: flex-start;
     align-items: start;
-    padding: 0 100px;
     width: fit-content;
     padding-top: 30px;
 }
 
 .all_services h3 {
     /* align-self: flex-end; */
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(200, 200, 200, 0.344);
     backdrop-filter: blur(10px);
     padding: 15px 15px;
     margin: 10px 0;
@@ -241,7 +241,7 @@ nav ul li a:hover {
 
 /* Footer Styles */
 footer {
-    background-color: #333;
+    background-color: #272727;
     color: white;
     text-align: center;
     padding: 30px 0;
@@ -266,6 +266,11 @@ footer .contact-info .work_hours {
     align-items: flex-start;
 }
 
+.contact-info .address a {
+    color: rgb(210, 210, 210);
+    text-decoration: none;
+}
+
 .contact-info .address .fb_link {
     display: flex;
     gap: 10px;
@@ -273,7 +278,50 @@ footer .contact-info .work_hours {
 
 /* products section */
 
-.category-cards {
+.test {
+    display: flex;
+    flex-direction: column;
+}
+
+.test_card img {
+    width: 330px;
+    height: 400px;
+}
+
+.test_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px 10px;
+    border: 1.5px solid rgb(126, 126, 126);
+    height: 350px;
+}
+
+.test_card a {
+    text-decoration: none;
+    color: #283d2b;
+}
+
+.test_card .learn-more {
+    transition: transform 0.2s;
+}
+
+.test_card .learn-more:hover {
+    transform: translateY(-6px);
+}
+
+.test_card h3 {
+    margin: 10px 0px;
+    font-size: 1.5em;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.category_test {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -281,73 +329,40 @@ footer .contact-info .work_hours {
     margin-bottom: 20px;
 }
 
-.category-cards .categories {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 85%;
-    margin: 20px 0px;
-}
-
-.categories .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #fff;
-    padding-bottom: 10px;
-    border-radius: 8px;
-}
-
-
-.category-cards h2 {
+.category_test h2 {
     font-size: 1.5em;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 25px;
 }
 
 .categories .card .image {
     width: 70%;
-    height: 200px;
+    height: 300px;
 }
 
-.categories .card h3 {
-    /* text-decoration: underline; */
-    margin: 10px 0px;
-    font-size: 1.5em;
-    color: #333;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-/* .categories .card hr {
-    border-width: 0px;
-    margin-bottom: 6px;
-    color: black;
-    width: 100%;
-} */
-
-.categories a {
+/* .categories a {
     border-radius: 8px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-    padding: 20px 10px;
+    padding: 0px 10px;
     text-align: center;
-    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: transform 0.2s;
-}
+} */
 
-.categories a:hover {
+/* .categories a:hover {
     transform: translateY(-10px);
 }
 
 .categories a {
     text-decoration: none;
-}
+} */
+
+
 
 .learn-more {
-    width: 80%;
+    width: 100%;
     height: 30px;
     display: flex;
     align-items: center;
@@ -478,7 +493,7 @@ textarea:focus {
 }
 
 button {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     background-color: #007BFF;
     color: white;
@@ -497,6 +512,7 @@ button:hover {
     justify-content: center;
     gap: 30px;
     margin: 30px 0px;
+    margin-right: 20px;
 }
 
 #contact_us_form img {
@@ -516,14 +532,14 @@ button:hover {
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    padding-left: 80px;
+    /* padding-left: 0px;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 100px; */
 }
 
 .majesty_cctv .fact {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 }
 
 .majesty_cctv .fact img {
@@ -646,7 +662,7 @@ button:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
     margin: 10px 0;
     background: rgba(255, 255, 255, 0.8);
     /* Slightly opaque background to enhance readability */
@@ -654,7 +670,7 @@ button:hover {
     /* Apply the blur effect */
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    padding: 40px 0;
+    padding: 30px 0;
 
 }
 
@@ -682,7 +698,7 @@ button:hover {
     flex-direction: column;
     padding-left: 80px;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
 }
 
 .solar_mercury_services .fact {
@@ -866,10 +882,36 @@ button:hover {
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
 
+    .majesty_cctv .fact div {
+        padding-left: 10px;
+    }
+
+    .majesty_cctv .fact img {
+        width: 21px;
+        height: 21px;
+        margin-right: 0px;
+    }
+
+    .majesty_cctv .fact h3 {
+        margin: 5px 20px;
+    }
+
+    .cctv-content-container h1 {
+        text-align: center;
+        color: #201d88;
+        font-size: 22px;
+    }
+
+    /* mercury solar*/
+    .mercury_solar h1 {        
+        font-size: 10px;
+    }
+
     .white-gradient-text {
         background: linear-gradient(90deg, #2a2a2a, #9b9393);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        font-size: 5px;
     }
 
     .category-cards .categories {
@@ -877,7 +919,7 @@ button:hover {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        width: 100%;
+        width: 90%;
         margin: 0px 0px;
         padding: 0px;
     }
@@ -892,11 +934,11 @@ button:hover {
 
     .all_services span {
         font-weight: bold;
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .all_services h3 {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .all_services {
@@ -907,6 +949,11 @@ button:hover {
     .all_services h3 {
         padding: 5px 15px;
         margin: 10px 0;
+    }
+
+    .viber-invite_container {
+        width: 90%;
+        margin: auto;
     }
 
     .brands_solar1,
@@ -972,8 +1019,8 @@ button:hover {
     }
 
     .mercury_solar h1 {
-        font-size: 30px;
-        -webkit-text-stroke: 2px black;
+        font-size: 25px;
+        -webkit-text-stroke: 1.4px black;
     }
 
     .solar_mercury_services {
@@ -1052,7 +1099,7 @@ button:hover {
     }
 
     .cctv-content-container h1 {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .cctv-list li {
@@ -1063,6 +1110,7 @@ button:hover {
     .cctv-consultant {
         margin-left: 10px;
         margin-right: 10px;
+        font-size: 16px;
     }
 
     /* Footer Styles */

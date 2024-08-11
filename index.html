@@ -18,63 +18,64 @@
                 <img src="images/mr_mandalay_logo.png" alt="Company Logo">
                 <h1>Mr. Mandalay Electronic</h1>
             </div>
-            <!-- <div class="company-name">
-                <h1>Mr. Mandalay Air Con Service</h1>
-            </div> -->
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="mercury.html">Solar Mercury</a></li>
-                    <li><a href="majesty.html">Majesty CCTV</a></li>
+                    <li><a href="mercury.html">Mercury</a></li>
+                    <li><a href="majesty.html">Majesty</a></li>
                     <li><a href="contact_us.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
+        
     </header>
 
     <div class="all_services">
-        <h3  id="service1" class="top_down_gradient">Air Con တပ်ဆင်မည်ဆိုလျှင် <span>Mr. Mandalay Aircon</span></h3>
+        <h3 id="service1" class="top_down_gradient">Air Con တပ်ဆင်မည်ဆိုလျှင် <span>Mr. Mandalay Aircon</span></h3>
         <h3 id="service2">CCTV တပ်ဆင်မည်ဆိုလျှင် <span>လုံခြုံစိတ်ချ စောင့်ကြည့်ပေးမည့် Majesty CCTV</span></h3>
         <h3 id="service3">Solar တပ်ဆင်မည်ဆိုလျှင် <span>ဆိုလာ မာကျူရီ</span></h3>
     </div>
 
-    <section class="category-cards">
+    <div class="category_test">
         <h2 class="white-gradient-text">Browse Our Services</h2>
-        <div class="categories">
-            <a href="air_con_page.html"><div class="card" id="aircon">
+        <div class="test">
+            <div class="test_card">
                 <h3 class="gradient-text">Mr. Mandalay Aircon</h3>
-                <img src="images/ac.png" class="image">
+                <img src="images/ac.png" class="ac_img">
                 <div class="learn-more">
-                    <h5>Learn More</h5>
-                    <i class="bi bi-arrow-right-circle-fill"></i>
+                    <a href="air_con_page.html"><h5>Learn More</h5></a>
+                    <a href="air_con_page.html"><i class="bi bi-arrow-right-circle-fill"></i></a>
                 </div>
-            </div></a>
-            <a href="majesty.html"><div class="card" id="cctv">
+            </div>
+            <div class="test_card">
                 <h3 class="gradient-text">Majesty CCTV</h3>
-                <img src="images/majesty.jpg" class="image">
+                <img src="images/majesty.jpg" class="cctv_img">
                 <div class="learn-more">
-                    <h5>Learn More</h5>
-                    <i class="bi bi-arrow-right-circle-fill"></i>
+                    <a href="air_con_page.html"><h5>Learn More</h5></a>
+                    <a href="air_con_page.html"><i class="bi bi-arrow-right-circle-fill"></i></a>
                 </div>
-            </div></a>
-            <a href="mercury.html"><div class="card" id="solar">
-                <hr><h3 class="gradient-text">Mercury Solar</h3><hr>
-                <img src="images/mercury.jpg" class="image">
+            </div>
+            <div class="test_card">
+                <hr>
+                <h3 class="gradient-text">Mercury Solar</h3>
+                <hr>
+                <img src="images/mercury.jpg" class="solar_img">
                 <div class="learn-more">
-                    <!-- <a href="air_con_page.html">အသေးစိတ်ကြည့်မည်</a> -->
-                    <h5>Learn More</h5>
-                    <i class="bi bi-arrow-right-circle-fill"></i>
+                    <a href="air_con_page.html"><h5>Learn More</h5></a>
+                    <a href="air_con_page.html"><i class="bi bi-arrow-right-circle-fill"></i></a>
                 </div>
-            </div></a>
+            </div>
         </div>
-    </section>
+    </div>
 
     <footer>
         <div class="contact-info">
             <div class="address">
                 <p><strong>Contact Us</strong></p>
-                <p><i class="fa fa-map-marker"></i>အမှတ်(၉၀၆-ဃ/၁၈) ကျွဲဆည်ကန်(၂) လမ်း၊ ပြည်ကြီးတံခွန်မြို့နယ်၊ မန္တလေးမြို့</p>
-                <p><i class="fa fa-phone"></i> <a href="tel:+959402717893">+95 9402717893</a>, <a href="tel:+959402717893">+95 9402717893</a>, <a href="tel:+959402717893">+95 9402717893</a></p>
+                <p><i class="fa fa-map-marker"></i>အမှတ်(၉၀၆-ဃ/၁၈) ကျွဲဆည်ကန်(၂) လမ်း၊ ပြည်ကြီးတံခွန်မြို့နယ်၊
+                    မန္တလေးမြို့</p>
+                <p><i class="fa fa-phone"></i> <a href="tel:+959402717893">+95 9402717893</a>, <a
+                        href="tel:+959402717893">+95 9402717893</a>, <a href="tel:+959402717893">+95 9402717893</a></p>
                 <div class="fb_link">
                     <i class="bi bi-facebook"></i>
                     <a href="https://www.facebook.com/MrMandalayElectronic/">Mr. Mandalay Electronic</a>
@@ -90,7 +91,14 @@
         <p>&copy; 2024 Mr. Mandalay. All rights reserved.</p>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script src="scripts.js">
+        function navigateToPage() {
+            window.location.href = "mercury.html";  // Replace with the path to your new HTML page
+        }
+        $('to_aircon').click(function() {
+            window.location.href = "mercury.html";
+});
+    </script>
 </body>
 
 </html>
