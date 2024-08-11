@@ -28,8 +28,9 @@ header h5 {
     background-color: #333;
     color: white;
     margin: 0;
+    padding-top: 3px;
     margin-bottom: 10px;
-    font-size: x-small;
+    font-size: xx-small;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -244,7 +245,7 @@ footer {
     background-color: #272727;
     color: white;
     text-align: center;
-    padding: 30px 0;
+    padding: 22px 0;
 }
 
 footer .contact-info {
@@ -258,6 +259,10 @@ footer .contact-info .work_hours {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+footer p {
+    font-size: 12px;
 }
 
 .contact-info .address {
