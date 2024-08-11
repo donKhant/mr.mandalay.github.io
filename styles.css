@@ -1,0 +1,1170 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#main_body {
+    background-image: url("images/air\ con\ hero.jpg");
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .company-name h1 {
+    letter-spacing: 6px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+
+header h5 {
+    background-color: #333;
+    color: white;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: x-small;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    align-self: center;
+    padding-left: 30px;
+    color: #2b5a32;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: rgb(10, 95, 10);
+    text-decoration: overline 2px;
+}
+
+.all_services {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 0 100px;
+    width: fit-content;
+    padding-top: 30px;
+}
+
+.all_services h3 {
+    /* align-self: flex-end; */
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 15px 15px;
+    margin: 10px 0;
+    border-radius: 5%;
+}
+
+.all_services span {
+    font-weight: bold;
+    font-size: 20px;
+    color: #2b5a32;
+    margin-left: 10px;
+    border-radius: 5%;
+}
+
+.all_services #service1 span {
+    background-image: linear-gradient(rgb(104, 150, 105), #2b5a32);
+    color: transparent;
+    background-clip: text;
+}
+
+.all_services #service2 span {
+    background-image: linear-gradient(rgb(206, 48, 203), #35194b);
+    color: transparent;
+    background-clip: text;
+}
+
+.all_services #service3 span {
+    background-image: linear-gradient(rgb(229, 198, 0), #cad02b);
+    color: transparent;
+    background-clip: text;
+}
+
+/* Brands Slider Styles */
+#brands {
+    padding: 20px;
+    text-align: center;
+}
+
+.slider {
+    display: flex;
+    overflow-x: scroll;
+    /* scroll-behavior: smooth; */
+}
+
+.slider .slide {
+    margin: 0 10px;
+}
+
+
+
+.slide img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.air_con_services {
+    background-image: url("images/air\ con\ hero.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-size: 100% 100% ; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    padding: 0 15px;
+}
+
+.air_con_services .list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+.air_con_services .list .fact {
+    display: flex;
+    align-items: center;
+}
+
+.fact img {
+    width: 24px;
+    height: 24px;
+    margin-right: 25px;
+}
+
+.fact h3 {
+    margin-top: 24px;
+    letter-spacing: 4px;
+    align-self: center;
+}
+
+#brands .slider {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 100px;
+}
+
+#brands .slider .slide {
+    height: auto;
+    margin: 30px 30px;
+    background-size: 180px;
+}
+
+#brands h2 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+/* featured brands */
+
+.brand-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+    margin-bottom: 100px;
+}
+
+.brand {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-logo {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.product-image {
+    max-width: 100%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer .contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+footer .contact-info .work_hours {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-info .address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-info .address .fb_link {
+    display: flex;
+    gap: 10px;
+}
+
+/* products section */
+
+.category-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.category-cards .categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    margin: 20px 0px;
+}
+
+.categories .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+
+
+.category-cards h2 {
+    font-size: 1.5em;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+.categories .card .image {
+    width: 70%;
+    height: 200px;
+}
+
+.categories .card h3 {
+    /* text-decoration: underline; */
+    margin: 10px 0px;
+    font-size: 1.5em;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .categories .card hr {
+    border-width: 0px;
+    margin-bottom: 6px;
+    color: black;
+    width: 100%;
+} */
+
+.categories a {
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    padding: 20px 10px;
+    text-align: center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s;
+}
+
+.categories a:hover {
+    transform: translateY(-10px);
+}
+
+.categories a {
+    text-decoration: none;
+}
+
+.learn-more {
+    width: 80%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0.8;
+    border-radius: 6px;
+    color: #fff;
+    padding: 5px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    letter-spacing: 0px;
+    background: linear-gradient(90deg, #b7dae9, #737473);
+    transition: background-color 0.3s;
+}
+
+.learn-more i {
+    font-size: 20px;
+}
+
+.learn-more:hover {
+    background-color: #5b5b5b;
+}
+
+/* cctv services */
+
+.cctv-content-container {
+    padding: 20px 80px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(90deg, #fff8b0, #ffe75c);
+    font-weight: 700;
+}
+
+.cctv-content-container h1 {
+    text-align: center;
+    color: #201d88;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.cctv-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cctv-list li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #333;
+    -webkit-text-fill-color: black;
+}
+
+.cctv-list li::before {
+    content: "■";
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-text-fill-color: #bb0b0b;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.cctv-consultant {
+    background-color: #bb0b0b;
+    color: white;
+    font-weight: bolder;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    margin: 0px 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.cctv-consultant i {
+    margin-right: 8px;
+}
+
+/* contact us */
+
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#contact_us_form {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0px;
+}
+
+#contact_us_form img {
+    width: 45%;
+}
+
+.form-container {
+    width: 45%;
+    padding: 0px 50px;
+}
+
+/* majesty cctv */
+
+.majesty_cctv {
+    background-image: url("images/cctv\ bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.majesty_cctv .fact {
+    display: flex;
+    align-items: center;
+}
+
+.majesty_cctv .fact img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    padding: 15px 0px;
+}
+
+.majesty_cctv .fact div {
+    background: rgba(118, 118, 118, 0.1);
+    margin: 10px 0;
+    padding: 0px 20px;
+    padding-right: 15px;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.majesty_cctv .fact h3 {
+    /* margin-top: 24px; */
+    margin: 5px 30px;
+    letter-spacing: 1px;
+    align-self: center;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /* margin-right: 150px; */
+}
+
+
+/* Viber channel */
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+} */
+
+.viber-invite_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.viber-invite {
+    width: 90%;
+    height: 200px;
+    background-image: url("images/air\ con\ control.jpg");
+    background-size: cover;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 10px;
+    margin: 40px 0 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.viber-invite h2 {
+    color: #4a4a4a;
+    margin-bottom: 10px;
+}
+
+.viber-invite p {
+    color: #6c6c6c;
+    margin-bottom: 20px;
+    word-spacing: 2px;
+}
+
+#viberButton {
+    width: 30%;
+    background-color: #665cac;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    padding: 15px 0px;
+    margin: 0px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+#viberButton:hover {
+    background-color: #4c4a89;
+}
+
+/* Reusable Gradient Text Style */
+
+.gradient-text {
+    background: linear-gradient(90deg, #949494, #2b5a32);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.white-gradient-text {
+    background: linear-gradient(90deg, #9e9d9d, #9b9393);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blue-gradient-text {
+    text-align: center;
+    font-size: x-large;
+    background: linear-gradient(20deg, #604eea, #130340);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mercury_main_section .mercury_solar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 10px 0;
+    background: rgba(255, 255, 255, 0.8);
+    /* Slightly opaque background to enhance readability */
+    backdrop-filter: blur(10px);
+    /* Apply the blur effect */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 40px 0;
+
+}
+
+.mercury_solar img {
+    width: 440px;
+}
+
+.mercury_solar h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    /* Adjust the font size as needed */
+    color: yellow;
+    -webkit-text-stroke: 3px black;
+    /* Creates the text border */
+    text-stroke: 1px black;
+    /* For additional browser compatibility */
+}
+
+
+.solar_mercury_services {
+    background-image: url("images/solar/solar_bg.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.solar_mercury_services .fact {
+    display: flex;
+    align-items: center;
+}
+
+.solar_mercury_services .fact img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.solar_mercury_services .fact div {
+    background: rgba(118, 118, 118, 0.1);
+    margin: 10px 0;
+    padding: 0px 20px;
+    padding-right: 15px;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.solar_mercury_services .fact h3 {
+    /* margin-top: 24px; */
+    margin: 5px 30px;
+    letter-spacing: 1px;
+    align-self: center;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /* margin-right: 150px; */
+}
+
+/* solar descs section */
+
+.styled-div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(to bottom, #add8e6, #00008b);
+    /* Soft blue to dark blue gradient */
+    padding: 20px;
+}
+
+.styled-text {
+    color: yellow;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    /* 1px black text border */
+    font-size: 18px;
+}
+
+/* solar brands */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0 20%;
+    margin: 20px 0;
+}
+
+.grid-container #Growatt .brand-logo {
+
+    bottom: 0px;
+    right: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+.grid-container #Deye .brand-logo {
+    top: 10px;
+    left: 10px;
+}
+
+.grid-container #shark .brand-logo {
+    bottom: 0px;
+    right: 10px;
+}
+
+.product-card {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-image {
+    width: fit-content;
+    height: fit-content;
+    object-fit: cover;
+}
+
+.brand-logo {
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    border-radius: 10%;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.product-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    filter: blur(5px);
+}
+
+.brands_solar {
+    /* margin: 20px 40%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.brands_solar img {
+    width: 30%;
+    height: 190px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.brands_solar img:hover {
+    transform: translateY(-10px);
+}
+
+.brands_solar #goodwe {
+    width: 250px;
+    height: 300px;
+}
+
+.brands_solar1,
+.brands_solar2 {
+    margin: 0px 0px;
+    padding: 0%;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.brands_solar1 img,
+.brands_solar2 img {
+    width: 300px;
+    height: 190px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: scroll;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+#felicity,
+#sandi {
+    height: 120px;
+}
+
+.brands_solar1 img:hover,
+.brands_solar2 img:hover {
+    transform: translateY(-10px);
+}
+
+/* Media Queries for Mobile and Tablet Views */
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+
+    .white-gradient-text {
+        background: linear-gradient(90deg, #2a2a2a, #9b9393);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .category-cards .categories {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0px 0px;
+        padding: 0px;
+    }
+
+    .category-cards .categories .card {
+        width: 400px;
+    }
+
+    .category-cards .categories .card a {
+        width: 90%;
+    }
+
+    .all_services span {
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    .all_services h3 {
+        font-size: 15px;
+    }
+
+    .all_services {
+        padding: 0px 20px;
+        margin-bottom: 0px;
+    }
+
+    .all_services h3 {
+        padding: 5px 15px;
+        margin: 10px 0;
+    }
+
+    .brands_solar1,
+    .brands_solar2,
+    .brands_solar {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: auto;
+        white-space: nowrap;
+    }
+
+    .brands_solar1 img,
+    .brands_solar2 img,
+    .brands_solar img {
+        /* width: 200px;
+        height: 200px; */
+        margin-bottom: 10px;
+    }
+
+    #sme,
+    #solis {
+        display: flex;
+        margin: auto;
+        flex-direction: row;
+        width: 90%;
+        height: 210px;
+        justify-content: center;
+        align-items: center;
+        overflow: auto;
+    }
+
+    #sme {
+        width: 90%;
+        height: 250px;
+    }
+
+    #solis {
+        width: 70%;
+        height: 180px;
+    }
+
+    #blue_carbon {
+        height: 300px;
+    }
+
+    #felicity,
+    #sandi {
+        /* height: 80px; */
+    }
+
+    #goodwe {
+        width: 400px;
+        height: 400px;
+    }
+
+    .mercury_solar img {
+        width: 240px;
+        height: 100px;
+    }
+
+    .mercury_solar h1 {
+        font-size: 30px;
+        -webkit-text-stroke: 2px black;
+    }
+
+    .solar_mercury_services {
+        padding-left: 20px;
+    }
+
+    .styled-text {
+        font-size: 15px;
+    }
+
+    /* Header Styles */
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+        padding-left: 0;
+        text-decoration: solid;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 15px;
+        margin-top: 13px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        color: #333;
+    }
+
+    nav ul li {
+        margin: 6px 0;
+        background-color: #f0f0f0;
+        padding: 6px 10px;
+        border-radius: 3px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    /* Adjustments for Main Sections */
+    .majesty_main_section {
+        padding: 20px;
+        padding-top: 0px;
+    }
+
+    .majesty_cctv {
+        padding-left: 10px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        border-radius: 10px;
+    }
+
+    .majesty_cctv .cctv .fact h3 {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .cctv-content-container {
+        padding: 10px 20px;
+        margin: 20px 20px;
+        border-radius: 10px;
+    }
+
+    .cctv-content-container h1 {
+        font-size: 20px;
+    }
+
+    .cctv-list li {
+        font-size: 0.9rem;
+        padding-left: 20px;
+    }
+
+    .cctv-consultant {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* Footer Styles */
+    footer .contact-info {
+        flex-direction: column;
+        align-items: start;
+        padding: 10px 10px;
+    }
+
+    footer .contact-info .work_hours {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    footer .contact-info .work_hours p {
+        margin: 10px 0px;
+    }
+
+    footer .contact-info .address {
+        text-align: start;
+        margin-bottom: 10px;
+    }
+
+    .fb_link {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #brands h2 {
+        font-size: 18px;
+    }
+
+    #brands .slider {
+        flex-direction: column;
+        padding: 0px 10px;
+        margin: 0px;
+        height: auto;
+    }
+
+    #brands .slider .slide {
+        margin: 6px 10px;
+        padding: 0px;
+    }
+
+    #brands .slider .slide img {
+        width: 95%;
+    }
+
+    .brand-container {
+        align-items: center;
+        justify-content: center;
+        margin: 0%;
+    }
+
+    .brand-container .brand {
+        width: 550px;
+    }
+
+    /* .category-cards {
+        width: 100%;
+    }
+
+    .categories .card {
+        width: 100%;
+    } */
+
+    /* Responsive for contact us form */
+    #contact_us_form {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #contact_us_form img {
+        width: 100%;
+    }
+
+    .form-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* Adjustments for Viber Invite */
+    .viber-invite {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    #viberButton {
+        width: 100%;
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    .air_con_services .list {
+        padding: 0px;
+    }
+
+    .air_con_services .list .fact h3 {
+        letter-spacing: normal;
+        font-size: 15px;
+    }
+
+}
