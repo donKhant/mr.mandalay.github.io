@@ -956,7 +956,7 @@ button:hover {
     }
 
     .all_services h3 {
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 500;
     }
 
@@ -967,7 +967,7 @@ button:hover {
 
     .all_services h3 {
         padding: 5px 0px;
-        padding-left: 22px;
+        padding-left: 18px;
         padding-right: 5px;
         margin: 5px 0;
     }
