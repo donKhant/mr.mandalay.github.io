@@ -547,7 +547,6 @@ button:hover {
 .majesty_cctv {
     background-image: url("images/cctv\ bg.jpg");
     background-size: cover;
-    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     /* padding-left: 0px;
@@ -577,8 +576,7 @@ button:hover {
     flex-direction: row;
 }
 
-.majesty_cctv .fact h3 {
-    /* margin-top: 24px; */
+.majesty_cctv .fact h4 {
     margin: 5px 30px;
     letter-spacing: 1px;
     align-self: center;
@@ -910,8 +908,10 @@ button:hover {
         margin-right: 0px;
     }
 
-    .majesty_cctv .fact h3 {
-        margin: 5px 20px;
+    .majesty_cctv .fact h4 {
+        margin: 5px 18px;
+        font-size: 14px;
+        text-align: justify;
     }
 
     .cctv-content-container h1 {
@@ -1107,11 +1107,6 @@ button:hover {
         padding-top: 30px;
         padding-bottom: 50px;
         border-radius: 10px;
-    }
-
-    .majesty_cctv .cctv .fact h3 {
-        font-size: 16px;
-        text-align: justify;
     }
 
     .cctv-content-container {
