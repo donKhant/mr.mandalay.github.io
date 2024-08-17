@@ -1,4 +1,11 @@
 /* General Styles */
+
+.gradient-border {
+    border: 5px solid; /* Border width */
+    border-image: linear-gradient(to right, #ff7e5f, #feb47b) 1;
+}
+
+
 body {
     font-family: sans-serif;
     margin: 0;
@@ -83,15 +90,12 @@ nav ul li a:hover {
     justify-content: flex-start;
     align-items: start;
     width: fit-content;
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(200, 200, 200, 0.344);
 }
 
 .all_services h3 {
-    /* align-self: flex-end; */
-    background: rgba(200, 200, 200, 0.344);
-    backdrop-filter: blur(10px);
-    padding: 15px 15px;
-    margin: 10px 0;
     border-radius: 5%;
 }
 
@@ -302,7 +306,7 @@ footer p {
     background-color: white;
     border-radius: 10px;
     padding: 12px 10px;
-    border: 1.5px solid rgb(126, 126, 126);
+    border: 2px solid rgb(52, 101, 63);
     height: 350px;
 }
 
@@ -392,6 +396,10 @@ footer p {
 
 .learn-more:hover {
     background-color: #5b5b5b;
+}
+
+.learn-more a {
+    text-decoration: none;
 }
 
 /* cctv services */
@@ -945,16 +953,17 @@ button:hover {
 
     .all_services h3 {
         font-size: 12px;
+        font-weight: 500;
     }
 
     .all_services {
-        padding: 0px 18px;
+        /* padding: 0px 18px; */
         margin-bottom: 0px;
     }
 
     .all_services h3 {
         padding: 5px 15px;
-        margin: 10px 0;
+        margin: 5px 0;
     }
 
     .viber-invite_container {
@@ -1071,6 +1080,7 @@ button:hover {
     nav ul li {
         margin: 6px 0;
         background-color: #f0f0f0;
+        border: 0.5px solid rgba(126, 52, 195, 0.5);
         padding: 6px 10px;
         border-radius: 3px;
     }
