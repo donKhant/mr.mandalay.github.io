@@ -740,7 +740,7 @@ button:hover {
 
 .solar_mercury_services .fact h3 {
     /* margin-top: 24px; */
-    margin: 5px 30px;
+    margin: 0px 20px;
     letter-spacing: 1px;
     align-self: center;
     color: white;
@@ -921,9 +921,6 @@ button:hover {
     }
 
     /* mercury solar*/
-    .mercury_solar h1 {        
-        font-size: 10px;
-    }
 
     .white-gradient-text {
         background: linear-gradient(90deg, #2a2a2a, #9b9393);
@@ -1033,23 +1030,34 @@ button:hover {
         width: 400px;
         height: 400px;
     }
+    
 
     .mercury_solar img {
-        width: 240px;
-        height: 100px;
+        width: 49%;
+        height: auto;
     }
 
     .mercury_solar h1 {
-        font-size: 25px;
+        font-size: 23px;
         -webkit-text-stroke: 1.4px black;
     }
 
+    .solar_mercury_services .fact img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
     .solar_mercury_services {
-        padding-left: 20px;
+        padding-left: 5px;
+    }
+
+    .solar_mercury_services .fact h3 {
+        font-size: 16px;
     }
 
     .styled-text {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     /* Header Styles */
@@ -1120,14 +1128,14 @@ button:hover {
     }
 
     .cctv-list li {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         padding-left: 20px;
     }
 
     .cctv-consultant {
         margin-left: 10px;
         margin-right: 10px;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     /* Footer Styles */
