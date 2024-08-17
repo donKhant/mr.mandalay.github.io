@@ -92,18 +92,22 @@ nav ul li a:hover {
     width: fit-content;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-radius: 5px;
+    border: 0.2px solid rgb(176, 176, 175);
     background: rgba(200, 200, 200, 0.344);
+    margin: 10px;
 }
 
 .all_services h3 {
     border-radius: 5%;
+    margin-right: 8px;
 }
 
 .all_services span {
     font-weight: bold;
-    font-size: 20px;
     color: #2b5a32;
-    margin-left: 10px;
+    margin: 0px;
+    padding: 0px;
     border-radius: 5%;
 }
 
@@ -948,7 +952,7 @@ button:hover {
 
     .all_services span {
         font-weight: bold;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .all_services h3 {
@@ -962,7 +966,9 @@ button:hover {
     }
 
     .all_services h3 {
-        padding: 5px 15px;
+        padding: 5px 0px;
+        padding-left: 22px;
+        padding-right: 5px;
         margin: 5px 0;
     }
 
@@ -1080,7 +1086,7 @@ button:hover {
     nav ul li {
         margin: 6px 0;
         background-color: #f0f0f0;
-        border: 0.5px solid rgba(126, 52, 195, 0.5);
+        border: 0.1px solid rgba(126, 52, 195, 0.5);
         padding: 6px 10px;
         border-radius: 3px;
     }
