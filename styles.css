@@ -5,6 +5,17 @@
     border-image: linear-gradient(to right, #ff7e5f, #feb47b) 1;
 }
 
+.disabled_anchor {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+.disabled_anchor.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
 
 body {
     font-family: sans-serif;
