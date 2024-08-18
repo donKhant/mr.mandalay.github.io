@@ -365,27 +365,6 @@ footer p {
     height: 300px;
 }
 
-/* .categories a {
-    border-radius: 8px;
-    padding: 0px 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.2s;
-} */
-
-/* .categories a:hover {
-    transform: translateY(-10px);
-}
-
-.categories a {
-    text-decoration: none;
-} */
-
-
-
 .learn-more {
     width: 100%;
     height: 30px;
@@ -449,7 +428,7 @@ footer p {
     position: relative;
     padding-left: 25px;
     margin-bottom: 10px;
-    font-size: 1.1rem;
+    font-size: 0.7rem;
     color: #333;
     -webkit-text-fill-color: black;
 }
@@ -460,8 +439,7 @@ footer p {
     left: 0;
     top: 0;
     -webkit-text-fill-color: #bb0b0b;
-    font-size: 1.2rem;
-    line-height: 1.2rem;
+    font-size: 0.7rem;
 }
 
 .cctv-consultant {
@@ -478,6 +456,17 @@ footer p {
 
 .cctv-consultant i {
     margin-right: 8px;
+}
+
+.viber_contact {
+    background-color: #000e91;
+    color: rgb(255, 239, 58);
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px 0px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 25px;
 }
 
 /* contact us */
@@ -565,11 +554,6 @@ button:hover {
     padding-bottom: 100px; */
 }
 
-.majesty_cctv .fact {
-    /* display: flex;
-    align-items: center; */
-}
-
 .majesty_cctv .fact img {
     width: 24px;
     height: 24px;
@@ -598,17 +582,6 @@ button:hover {
 
 
 /* Viber channel */
-
-/* body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
-} */
 
 .viber-invite_container {
     width: 100%;
@@ -692,9 +665,7 @@ button:hover {
     gap: 30px;
     margin: 10px 0;
     background: rgba(255, 255, 255, 0.8);
-    /* Slightly opaque background to enhance readability */
     backdrop-filter: blur(10px);
-    /* Apply the blur effect */
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     padding: 30px 0;
@@ -708,7 +679,6 @@ button:hover {
 .mercury_solar h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
-    /* Adjust the font size as needed */
     color: yellow;
     -webkit-text-stroke: 3px black;
     /* Creates the text border */
@@ -750,13 +720,12 @@ button:hover {
 }
 
 .solar_mercury_services .fact h3 {
-    /* margin-top: 24px; */
     margin: 0px 20px;
     letter-spacing: 1px;
     align-self: center;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    /* margin-right: 150px; */
+    font-weight: 900;
 }
 
 /* solar descs section */
@@ -770,7 +739,7 @@ button:hover {
 }
 
 .styled-text {
-    color: yellow;
+    color: rgb(254, 254, 44);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     /* 1px black text border */
     font-size: 18px;
@@ -847,7 +816,6 @@ button:hover {
 }
 
 .brands_solar {
-    /* margin: 20px 40%; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -894,8 +862,7 @@ button:hover {
     transition: transform 0.2s;
 }
 
-#felicity,
-#sandi {
+#felicity, #sandi {
     height: 120px;
 }
 
@@ -1001,8 +968,6 @@ button:hover {
     .brands_solar1 img,
     .brands_solar2 img,
     .brands_solar img {
-        /* width: 200px;
-        height: 200px; */
         margin-bottom: 10px;
     }
 
@@ -1030,11 +995,6 @@ button:hover {
 
     #blue_carbon {
         height: 300px;
-    }
-
-    #felicity,
-    #sandi {
-        /* height: 80px; */
     }
 
     #goodwe {
@@ -1069,6 +1029,7 @@ button:hover {
 
     .styled-text {
         font-size: 14px;
+        font-weight: 900;
     }
 
     /* Header Styles */
@@ -1139,8 +1100,8 @@ button:hover {
     }
 
     .cctv-list li {
-        font-size: 0.8rem;
-        padding-left: 20px;
+        font-size: 0.7rem;
+        padding-left: 25px;
     }
 
     .cctv-consultant {
